@@ -1,6 +1,7 @@
 {
   "name": "vite-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +10,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "ryannkim327.github.io/testvite",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
